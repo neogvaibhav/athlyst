@@ -1,0 +1,97 @@
+.App {
+  font-family: sans-serif;
+}
+.form-container {
+  width: 100%;
+  height: 520px;
+  border: peru solid;
+}
+.form-header {
+  background-color: red;
+  color: #fff;
+  margin: none;
+}
+.form-header p {
+  padding: 10px;
+  margin: 0;
+  padding-left: 35px;
+}
+.form-body {
+  height: 400px;
+  background-color: papayawhip;
+}
+.form-footer {
+  margin-top: 20px;
+  text-align: right;
+}
+.btn {
+  background-color: red;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  width: 100px;
+  margin-right: 10px;
+}
+/* FormType1 */
+.form-type1 {
+  padding: 10px;
+  margin: 0;
+  padding-left: 35px;
+  margin-top: 20px;
+}
+.form-type1 select {
+  width: 20%;
+  height: 25px;
+}
+.form-type1 select option {
+  background-color: plum;
+  text-align: center;
+  font-weight: bold;
+}
+/* FormType2 */
+.form-type2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.form-left input,
+.form-right input,
+textarea {
+  margin-top: 50px;
+}
+/* TypeForm3 */
+.form-type3 {
+  display: flex;
+}
+.form-type3 .form-left input {
+  display: block;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.form-type3 .form-right select {
+  display: block;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+/* Table */
+table {
+  padding: 10px;
+  width: 100%;
+}
+table th {
+  background-color: red;
+  border: solid 1px;
+  text-align: center;
+}
+table tr {
+  background-color: cornsilk;
+  border: solid 1px;
+  text-align: center;
+}
+table td {
+  border: solid brown 0.5px;
+  text-align: center;
+}
